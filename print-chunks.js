@@ -15,7 +15,7 @@ function getAndPrintHTMLChunks () {
     });
     
     response.on('end', function() {
-      console.log()
+      console.log();
     });
   });
 }
