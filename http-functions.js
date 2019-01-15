@@ -1,5 +1,7 @@
+https = require('https');
+
 module.exports = function getHTML (options, callback) {
-  https = require('https');
+
   var dataReceived = '';
 
 
